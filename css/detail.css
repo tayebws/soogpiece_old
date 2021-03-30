@@ -1,0 +1,280 @@
+/*===========================Detail page css ============================*/
+.cat-toggle {
+	background: #fff;
+	position: relative;
+	display: none;
+	width: 17.35%;
+}
+.cat-toggle:hover {
+	display: block;
+}
+.add-area {
+	border: 1px solid #d5d5d5;
+}
+@media only screen and (max-width: 792px) {
+	.add-area {
+		display: none;
+	}
+}
+
+/***********Secondary Menu Css**********/
+.secondary-menu {
+	background: #ccc;
+}
+
+.sec-menu-parent-1 p {
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+.sec-menu-parent-2 p {
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+.sec-menu-parent-2 p {
+	margin-left: -35%;
+}
+.sec-menu-child-1 {
+	width: 100%;
+	opacity: 0.9;
+	position: absolute;
+	z-index: 7;
+}
+.sec-menu-child-2 {
+	width: 100%;
+	opacity: 0.9;
+	position: absolute;
+	z-index: 7;
+}
+
+@media only screen and (min-width: 792px) {
+	.sec-menu-parent-1 {
+		width: 20%;
+	}
+	.sec-menu-child-1 {
+		width: 20%;
+		border: 2px solid #ccc;
+		margin-left: 1rem;
+	}
+	.sec-menu-child-2 {
+		width: 20%;
+		border: 2px solid #ccc;
+		margin-left: 8rem;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.sec-menu-parent-1 p {
+		font-size: 1rem;
+	}
+	.sec-menu-parent-2 p {
+		font-size: 1rem;
+	}
+}
+
+/************ Parts Detial ***********/
+.detail-info {
+	border-radius: 3px;
+	border: 2px solid #e5e5e5;
+}
+.detail-item {
+	background: #f8f8f8;
+	border: 1px solid #e0e0e0;
+}
+.detail-item-info {
+	background: #fff;
+	text-align: center;
+}
+.detail-icon {
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	padding: 5px;
+}
+.btn-tooltip {
+	border-radius: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+.review-heading {
+	font-size: 1.5rem;
+}
+.review-avg {
+	font-size: 3rem;
+	margin-bottom: 0px;
+	color: #a9a9a9;
+}
+.review-total {
+	color: #a9a9a9;
+}
+
+@media only screen and (max-width: 768px) {
+	.spec-2 {
+		margin-top: 1rem !important;
+	}
+	.spec-3 {
+		margin-top: 1rem !important;
+	}
+}
+.detail-info .form-control:focus {
+	border-color: #ccc;
+	outline: 0;
+	box-shadow: none;
+}
+
+.tele a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.tele .blur {
+	filter: blur(3px);
+}
+
+.num-display {
+	color: #009dff;
+	font-weight: bolder;
+	margin-left: 2.4rem;
+}
+
+.num-display:hover {
+	cursor: pointer;
+}
+
+.mail-link a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.buttons a {
+	font-size: 1.15rem;
+	margin-bottom: 1rem;
+}
+.buttons .msg {
+	background: #f4b525;
+}
+.buttons .report {
+	background: #f34c17;
+}
+.buttons .record {
+	background: #69b708;
+}
+.buttons .share {
+	background: #0078d4;
+}
+
+/* Suggestions CSS */
+#suggestions {
+	/* background: #eeeeee; */
+	font-weight: 600;
+}
+#suggestions .date {
+	background: #c0c0c0;
+}
+/*#suggestions .price {
+	background: #ff0000;
+	color: #fff;
+	padding: 0.25rem;
+	border: 1px solid #ff0000;
+	border-radius: 3px;
+	top: 0.25rem;
+	right: 0.25rem;
+	font-weight: bold;
+}
+#suggestions .date {
+	background: #a5a2a2;
+	color: #fff;
+	font-size: 1.25rem;
+}
+#suggestions .title {
+	font-size: 1.4rem;
+	text-transform: capitalize;
+	padding: 0.25rem 0px;
+} */
+
+/* #badge-red {
+  height: 1.8rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  width: max-content;
+  background: #dc3545;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 1.25rem 0px 0.75rem;
+  position: relative;
+  color: #fff;
+}
+#badge-red::before {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 19px;
+  z-index: 1;
+  background: #fff;
+  border-left: none;
+  border-bottom: none;
+  background: #fff;
+  transform: rotate(45deg);
+  right: -10px;
+  top: 4px;
+}
+#badge-red::after {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 19px;
+  z-index: 1;
+  background: #dc3545;
+  border-left: none;
+  border-bottom: none;
+  transform: rotate(45deg);
+  left: -10px;
+  top: 4px;
+}
+#badge-blue {
+  height: 1.8rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  width: max-content;
+  background: #007bff;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 1.25rem 0px 0.75rem;
+  position: relative;
+  color: #fff;
+}
+#badge-blue::before {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 19px;
+  z-index: 1;
+  background: #fff;
+  border-left: none;
+  border-bottom: none;
+  background: #fff;
+  transform: rotate(45deg);
+  right: -10px;
+  top: 4px;
+}
+#badge-blue::after {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 19px;
+  z-index: 1;
+  background: #007bff;
+  border-left: none;
+  border-bottom: none;
+  transform: rotate(45deg);
+  left: -10px;
+  top: 4px;
+} */

@@ -1,0 +1,236 @@
+/*=========================== Login page css ============================*/
+.main-heading {
+	font-size: 2.25rem;
+}
+.txt {
+	font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+	.txt {
+		margin-right: 2rem;
+	}
+}
+@media (max-width: 768px) {
+	.main-heading {
+		text-align: center;
+		font-size: 1.5rem;
+	}
+}
+#login .lock-img {
+	width: 8rem;
+	height: auto;
+}
+@media (max-width: 992px) {
+	#login .lock-img {
+		display: none;
+	}
+}
+#login .login-form .gmail {
+	background: #4285f4;
+	color: #ffffff;
+	font-weight: 600;
+	padding: 0.25rem;
+	border-radius: 3px;
+}
+#login .login-form .facebook {
+	background: #3a559f;
+	color: #ffffff;
+	font-weight: 600;
+	padding: 0.25rem;
+	border-radius: 3px;
+}
+#login .login-form .fb-icon {
+	width: 25px;
+	height: auto;
+}
+#login .login-form .g-icon {
+	width: 38px;
+	height: auto;
+}
+#login .login-form .login-btn {
+	background: #f23f12;
+	color: #ffffff;
+	padding: .75rem .35rem;
+	font-weight: bold;
+}
+#login .login-form .log-icon {
+	width: 1.5rem;
+	height: auto;
+}
+@media (max-width: 768px) {
+	#login .login-form .loggedin {
+		display: none;
+	}
+	#login .login-form .login-btn {
+		width: 100%;
+	}
+}
+#login #f-pass {
+	text-decoration: none;
+	color: #0099f9;
+	font-size: 1.2rem;
+	margin-top: 10rem !important;
+}
+
+#login .login-form .create {
+	background: #539e3b;
+	color: #ffffff;
+	font-weight: 600;
+	padding: 0.25rem;
+	border-radius: 3px;
+}
+
+#login .login-form .create-icon {
+	width: 35px;
+	height: auto;
+}
+
+#login .login-form .create,
+.facebook,
+.gmail {
+	text-decoration: none;
+}
+
+/* Signup Form CSS */
+#signup {
+	border-radius: 3px;
+	background: #eeeeee;
+}
+#signup .signup-btn {
+	background: #539e3b;
+	color: #ffffff;
+	padding: .75rem 1rem;
+	font-weight: bold;
+}
+#signup .signup-icon {
+	width: 1.5rem;
+	height: auto;
+}
+@media (max-width: 768px) {
+	#signup .signup-btn {
+		width: 100%;
+	}
+}
+@media (max-width: 768px) {
+	#signup {
+		display: none;
+	}
+}
+@media (max-width: 991px) {
+	.login-form {
+		border-right: none !important;
+	}
+}
+
+/* Validation CSS */
+#val .menu-one {
+	background: #eeeeee;
+}
+
+#val .menu-one .lf-link {
+	text-decoration: none;
+}
+#val .menu-one .lf-link:hover {
+	background: #e7e7e7;
+	color: #000000;
+}
+
+#val .menu-one .menu-one-l1 .fa {
+	color: #f9c655;
+	font-size: 1.25rem;
+}
+
+#val .menu-one .menu-one-l2 .fa {
+	color: #f18645;
+	font-size: 1.25rem;
+}
+#val .menu-one .menu-one-l3 .fa {
+	color: #bba440;
+	font-size: 1.25rem;
+}
+#val .menu-one .menu-one-l4 .fa {
+	color: #c2813c;
+	font-size: 1.25rem;
+}
+#val .menu-one .menu-one-l5 .fa {
+	color: #e35c33;
+	font-size: 1.25rem;
+}
+#val .menu-one .menu-one-l6 .fa {
+	color: #53b66f;
+	font-size: 1.25rem;
+}
+#val .menu-one .menu-one-l7 .fa {
+	color: #d2322e;
+	font-size: 1.25rem;
+}
+
+#val .menu-one .left-div a:nth-child(n + 1):not(:nth-last-child(-n + 1)) {
+	border-right: 1px solid #e5e5e5;
+}
+@media (min-width: 768px) {
+	#val .menu-one .left-div .col-md-2 {
+		max-width: 15.666667%;
+	}
+}
+@media (min-width: 991px) {
+	#val .menu-one .left-div .col-md-2 {
+		max-width: 11.666667%;
+	}
+}
+#val .list-first a {
+	background: #f5f5f5;
+}
+#val .list-first a:hover {
+	background: #e7e7e7;
+}
+
+#val .v-head {
+	background: #fffbea;
+	border: 3px solid #f6af42;
+	border-radius: 0.25rem;
+	text-align: center;
+	padding: 2rem;
+}
+#val .head-one {
+	background: #ea6035;
+	color: #ffffff;
+}
+#val .head-two {
+	background: #419361;
+	color: #ffffff;
+}
+#val .head-three {
+	background: #f49b3e;
+	color: #ffffff;
+}
+#val .progress {
+	border-radius: 0;
+}
+#val .list-info h4 {
+	color: #f17f3d;
+}
+#val .list-info a {
+	color: #2671a6;
+}
+#val .list-info a:hover {
+	text-decoration: none;
+}
+#val .list-info .btn {
+	background: #c83029;
+	color: #ffffff;
+}
+#val .list-info .btn:focus {
+	box-shadow: 0 0 0 0.2rem rgba(200, 48, 41, .25);
+}
+
+@media (max-width: 768px) {
+	#val .list-info {
+		margin-top: 1.5rem;
+	}
+}
+/* @media (max-width: 380px) {
+	.rc-anchor-normal {
+		width: 79%;
+	}
+} */

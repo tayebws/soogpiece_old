@@ -1,0 +1,35 @@
+/**
+ * Sliding swipe menu CSS
+ */
+
+.ssm-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    z-index: 1;
+}
+#mySidebar {
+    display: none;
+}
+@media only screen and (max-width: 992px){
+    nav {
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: 2;
+        position: fixed;
+        overflow-y: auto;
+        overflow-x: visible;
+        width: 280px;
+        transform: translate(-280px,0);
+    }
+    .is-navOpen{
+       overflow: hidden;
+    }
+    #mySidebar {
+        display: block;
+    }
+}

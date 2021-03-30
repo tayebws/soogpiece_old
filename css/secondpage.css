@@ -1,0 +1,455 @@
+/*===========================second page css ============================*/
+.cat-toggle {
+  background: #fff;
+  position: relative;
+  display: none; 
+  width: 17.35%;
+}
+.cat-toggle:hover {
+  display: block;
+}
+.add-area {
+  border: 1px solid #d5d5d5;
+}
+@media only screen and (max-width: 792px){
+  .add-area {
+    display: none;
+  }
+}
+
+/***********Secondary Menu Css**********/
+.secondary-menu{
+  background: #E5E5E5;
+}
+@media only screen and (min-width: 768px){
+  .secondary-menu .col-md-12{
+    border: none;
+  }
+}
+.secondary-menu .left-link a {
+  font-size: 1.1rem;
+}
+.secondary-menu .filter-toggle-nav {
+  background: #47A3DA;
+  color: #fff;
+  padding: 0.25rem 1.25rem;
+  margin-top: 0.55rem;
+}
+.secondary-menu .filter .btn:focus {
+  box-shadow: none;
+}
+
+.sec-menu-parent-1 p {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.sec-menu-parent-2 p {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.sec-menu-parent-2 p {
+  margin-left: -35%;
+}
+
+.sec-menu-child-1 {
+  width: 100%;
+  position: absolute;
+  z-index: 7;
+  height: 15rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.sec-menu-child-2 {
+  width: 100%;
+  position: absolute;
+  z-index: 7;
+  height: 18rem;
+  overflow: scroll;
+  overflow-x: hidden;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 792px){
+  .sec-menu-parent-1 {
+    width: 20%;
+  }
+
+  .sec-menu-child-1 {
+    width: 20%;
+    border: 2px solid #ccc;
+    margin-left: 1rem;
+  }
+  .sec-menu-child-2 {
+    width: 20%;
+    border: 2px solid #ccc;
+    margin-left: 8rem;
+  }
+  .filter {
+    margin-left: 1.1rem;
+  }
+  .state {
+    margin-left: 2.1rem;
+  }
+}
+.filter .dropdown-menu {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 180px;
+  min-width: 22rem;
+}
+.filter .dropdown-menu a {
+  font-weight: 500;
+}
+.filter button{
+  background: #fff;
+  border-radius: 3px !important;
+  font-size: 1rem !important;
+  padding: 0.25rem 1.15rem;
+  font-weight: 500;
+}
+.dfilter-animate {
+  padding: 0.25rem 0.75rem;
+  animation: mymove .7s;
+  animation-iteration-count: 5;
+}
+
+@keyframes mymove {
+  from {background: #FFC107;}
+  to {background: #FD6836;}
+}
+
+@media only screen and (max-width: 768px){
+  
+  .sec-menu-parent-1 p {
+    font-size: 1rem;
+  }
+  .sec-menu-parent-2 p {
+    font-size: 1rem;
+  }
+
+  #photo {
+    display: none;
+  }
+  #price {
+    display: none;
+  }
+  #delivery {
+    display: none;
+  }
+
+  .state {
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+  }
+  .city {
+    margin-right: 0.5rem;
+  }
+  .new {
+    margin-right: 0.5rem;
+  }
+  .filter {
+    float: right;
+  }
+  .ad-slide img{
+    width: 44px !important;
+    height: 44px !important;
+  }
+  .filter button {
+    padding: 0.25rem 0.75rem;
+  }
+}
+@media only screen and (max-width: 375px){
+  .state .dropdown-menu {
+    transform: translate3d(-14px, 31px, 0px) !important;
+    min-width: 99vw;
+  }
+  .city .dropdown-menu {
+    transform: translate3d(-94px, 31px, 0px) !important;
+    min-width: 99vw;
+  }
+  .new .dropdown-menu {
+    transform: translate3d(-164px, 31px, 0px) !important;
+    min-width: 99vw;
+  }
+}
+/*******Product CSS*******/
+.online {
+  width: 15px;
+  height: 15px;
+  background: #1CF902;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 6;
+  margin-top: 2%;
+  margin-left: 94%;
+}
+.mobile-add-row {
+  border: 2px solid #e5e5e5;
+  border-radius: 3px;
+}
+.mobile-add-title {
+  display: none;
+}
+.mobile-advertiser {
+  display: none;
+}
+.main-image {
+  margin-top: 0.75rem;
+}
+.brand-col-small-img {
+  padding: 0px;
+}
+.customer-logos {
+  padding: 0px !important;
+}
+
+.phone-btn {
+  width: 20px;
+  height: 30px;
+}
+.envelope-btn {
+  width: 20px;
+  height: 30px;
+}
+.phone {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 100%;
+  -webkit-box-shadow: 3px 5px 6px -6px black;
+  -moz-box-shadow: 3px 5px 6px -6px black;
+  box-shadow: 3px 5px 6px -6px black;
+  font-size: 1.25rem;
+}
+.envelope {
+  background: #148EFE;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: 3px 5px 6px -6px black;
+  -moz-box-shadow: 3px 5px 6px -6px black;
+  box-shadow: 3px 5px 6px -6px black;
+  font-size: 1.25rem;
+}
+@media only screen and (max-width: 577px){
+  .main-title {
+    text-align: center;
+    font-size: 20px !important;
+  }
+  .mobile-add-title {
+    display: block;
+    position: absolute;
+    font-weight: bolder;
+    z-index: 6;
+    top: 5%;
+    left: 2%;
+  }
+  .mobile-advertiser {
+    display: block;
+    position: absolute;
+    z-index: 6;
+    top: 5%;
+    left: 29%;
+    float: left;
+    font-weight: bolder;
+  }
+  .add-text {
+    display: none;
+  }
+  .adage {
+    display: none;
+  }
+  .location {
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 11px;
+  }
+}
+
+.brand-col {
+  border: 2px solid #cccccc;
+}
+
+.brand-col img{
+  height: auto;
+}
+.brand-col-img {
+  border-right: 1px solid #cccccc;  
+  border-bottom: 1px solid #cccccc;  
+}
+.brand-col-rating {
+  font-size: 1.25rem;
+  margin-top: 0.4rem;
+  border-top: 1px solid #e5e5e5;
+}
+.brand-col-small-img {
+  padding: 0px;
+  background: #fff;
+  border: 2px solid #e5e5e5;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 5px 6px -6px black;
+  -moz-box-shadow: 0px 5px 6px -6px black;
+  box-shadow: 0px 5px 6px -6px black;
+}
+.detail-btn-col {
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+}
+@media only screen and (max-width: 577px){
+  .detail-btn-col {
+    margin-top: 5%;
+  }
+}
+.detail-btn {
+  color: #fff !important;
+  background: #ff2600 !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  padding: .15rem .5rem;
+}
+.use-btn {
+  color: #ff2600 !important;
+  background: #fff !important;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  -webkit-box-shadow: 0 5px 6px -6px black;
+  -moz-box-shadow: 0 5px 6px -6px black;
+  box-shadow: 0 5px 6px -6px black;
+}
+.ad-slide {
+  padding-top: 5px !important;
+  padding-bottom: 2px !important;
+  padding-left: 0.25rem !important;
+}
+.brand-adds {
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #e5e5e5;
+  border-radius: 3px;
+}
+@media only screen and (max-width: 991px){
+  .brand-adds {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px){
+  .brand-city {
+    display: none;
+  }
+}
+
+/******* slider css *******/
+.slick-slider
+{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+    user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+    touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus
+{
+  outline: none;
+}
+.slick-list.dragging
+{
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+  -webkit-transform: translate3d(0, 0, 0);
+     -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+       -o-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+  display: table;
+  content: '';
+}
+.slick-track:after
+{
+  clear: both;
+}
+.slick-loading .slick-track
+{
+  visibility: hidden;
+}
+
+.slick-slide
+{
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+  float: right;
+}
+.slick-slide img
+{
+  display: block;
+}
+.slick-slide.slick-loading img
+{
+  display: none;
+}
+.slick-slide.dragging img
+{
+  pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+  display: block;
+}
+.slick-loading .slick-slide
+{
+  visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}
+@media only screen and (max-width: 768px){
+  .ad-slide {
+    margin-left: 1.75rem;
+    padding: 0px !important;
+  }
+}
+@media only screen and (min-width: 768px){
+  .ad-slide {
+    margin-left: 0.5rem;
+  }
+}
